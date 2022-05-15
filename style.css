@@ -1,6 +1,6 @@
 *{
-    /* width:0;
-    height:0;  */
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     font-family: arial;
 }
@@ -15,10 +15,6 @@ header{
     height:100px;
 }
 
-h1{
-    margin-bottom: 0px;
-}
-
 #profile{
     height:80px;
     position:relative; /*use relative so it can be adjusted position in <body> with all other content. */
@@ -29,7 +25,8 @@ h1{
 .content-holder{
     border:#d3d3d3 3px solid;
     width:700px;
-    padding:20px;
+    padding-top:40px;
+    padding-left:20px;
 }
 
 .location{
@@ -37,15 +34,17 @@ h1{
     align-items:center;
     font-size: 20px;
     font-weight: bold;
+    margin:10px 0px;
 }
 
 .control{
     display:flex;
     align-items:center;
+    margin:20px 0px;
 }
 
 .location img, .control img{
-    height:30px;
+    height:20px;
     margin-right:10px;
 }
 
